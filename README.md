@@ -60,8 +60,6 @@ Navrhnuté dimenzie sú:
 
 Použitie týchto dimenzií umožňuje multidimenzionálnu analýzu predaja z rôznych pohľadov – časového, produktového, zákazníckeho a geografického.
 
-![Star Schema](img/star_schema.png)
-
 *Obrázok 2 – Schéma hviezdy*
 
 ---
