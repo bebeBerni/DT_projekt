@@ -33,7 +33,6 @@ ERD diagram zachytáva pôvodnú normalizovanú štruktúru zdrojových dát. Tr
 Priamy vzťah medzi entitami item a store nie je v ERD definovaný, keďže ide o vzťah typu M:N, ktorý je v relačnom modeli realizovaný prostredníctvom transakčnej tabuľky store_sales.
 Do ERD diagramu boli zahrnuté iba tie zdrojové tabuľky, ktoré sú priamo využité pri návrhu dátového skladu a analytického modelu. Doplnkové dimenzie (napr. HOUSEHOLD_DEMOGRAPHICS) neboli zahrnuté z dôvodu zjednodušenia modelu a ich nízkej relevancie pre zvolený analytický cieľ.
 
-
 ![ERD Schema](img/erd_schema.png)
 
 *Obrázok 1 – Entitno-relačná schéma*
@@ -60,7 +59,6 @@ Navrhnuté dimenzie sú:
 -	DIM_DATE – časová dimenzia umožňujúca analýzu podľa dní, mesiacov a rokov (SCD Typ 0).
 
 Použitie týchto dimenzií umožňuje multidimenzionálnu analýzu predaja z rôznych pohľadov – časového, produktového, zákazníckeho a geografického.
-
 
 ![Star Schema](img/star_schema.png)
 
